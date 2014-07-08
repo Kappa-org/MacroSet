@@ -1,0 +1,26 @@
+{
+	"name": "kappa/macro-set",
+	"description": "Collection of Nette macros",
+	"keywords": ["Kappa", "macro", "collection", "nette", "template"],
+	"homepage": "https://github.com/Kappa-org/MacroSet",
+	"license": "BSD-3-Clause",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Ondřej Záruba",
+			"homepage": "http://zaruba-ondrej.cz"
+		}
+	],
+	"support": {
+		"email": "zarubaondra@gmail.com",
+		"issues": "https://github.com/Kappa-org/MacroSet/issues"
+	},
+	"require": {
+		"latte/latte": "~2.2@dev"
+	},
+	"autoload": {
+		"psr-0": {
+			"macro-set": "src/"
+		}
+	}
+}
