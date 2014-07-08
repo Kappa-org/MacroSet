@@ -16,7 +16,8 @@
 		"issues": "https://github.com/Kappa-org/MacroSet/issues"
 	},
 	"require": {
-		"latte/latte": "~2.2@dev"
+		"latte/latte": "~2.2@dev",
+		"nette/utils": "~2.2@dev"
 	},
 	"autoload": {
 		"psr-0": {
